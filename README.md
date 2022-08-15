@@ -25,12 +25,12 @@ vist https://nodejs.org/en/download/
 
 
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [AngularJS](https://angularjs.org/) - HTML enhanced for web apps!
+- [Ace Editor](https://ace.c9.io/) - awesome web-based text editor
+- [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser done right. Fast and easy to extend.
+- Twitter Bootstrap - great UI boilerplate for modern web apps
+- [node.js](https://nodejs.org) - evented I/O for the backend
+- [Express](https://expressjs.com/) - fast node.js network app framework [@tjholowaychuk]
 - [Breakdance](https://breakdance.github.io/breakdance/) - HTML
 to Markdown converter
 
