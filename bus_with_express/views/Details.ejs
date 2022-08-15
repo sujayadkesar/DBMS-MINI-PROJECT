@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= details.Name  %> </title>
+    </head>
+    <body>
+        <h1><%= details.Name %>  </h1>
+        <ul>
+            <li>Age              : <%= details.age %> </li>
+            <li>phone no         : <%= details.Phno %> </li>
+            <li> Email           : <%= details.email %> </li>
+            <li>Gender           : <%= details.gender %> </li>
+            <li>Bording point    : <%= details.Bordingpoint %> </li>
+            <li>Destination point: <%= details.Destination %> </li>
+            <li>Date of journey  : <%= details.Date %> </li>
+            <li>Departure time   : <%= details.Departure %> </li>
+            <li>Bus number       : <%= details.Busno %> </li>
+            <li>Bus Name         : <%= details.Busname %> </li>
+            <li>Route            : <%= details.Route %> </li>
+        </ul> 
+        <a class="btn btn btn-primary ml-auto js-btn-next" title="Next"
+        href="/Payments/<%= details._id %> ">Next</a>&nbsp; <br> <br>
+       
+        
+
+        <form action="/some/<%= details._id %>?_method=DELETE" method="post">
+        
+        <button>DELETE</button>
+        </form>
+
+
+
+
+    </body>
+</html>

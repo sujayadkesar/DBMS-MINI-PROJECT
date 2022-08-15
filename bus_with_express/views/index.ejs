@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Book_ticket</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body> <br> <br> <br> <br>
+    <section class="containerr">
+
+        <div id="progress-bar-button" class="multisteps-form"></div>
+        <div id="multistep-start-row" class="row">
+            <div id="multistep-start-column" class="col-12 col-lg-8 m-auto">
+
+
+
+                <form id="main-form" class="multisteps-form__form" action="/some" , method="POST">
+                    <div id="single-form-next" class="multisteps-form__panel shadow p-4 rounded bg-white js-active"
+                        data-animation="scaleIn">
+                        <h3 class="text-center multisteps-form__title" id="ticketss">Booking Details</h3>
+                        <div>
+
+                            <ul>
+                                <% for(let p of tickets) { %>
+                                    <li><a href="/some/<%= p._id%>">
+                                            <%= p.Name %>
+                                        </a></li>
+                                    <% } %>
+                            </ul> <br><br>
+                           
+                        </div>
+                        <div id="form-content" class="multisteps-form__content">
+                            <div class="d-md-flex justify-content-evenly justify-content-md-start align-items-md-start form-row mt-4"
+                                id="input-grp-double"> <br> <br> <br>
+
+                                <div id="next-button" class="button-row d-flex mt-4">
+                                   
+                                        
+                                        <a class="btn btn btn-primary ml-auto js-btn-next" title="Next"
+                                        href="/">Home</a>&nbsp;&nbsp;
+
+                                       
+                                        
+                                </div>
+                            </div>
+                        </div>
+                </form>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Multi-step-form.js"></script>
+</body>
+
+</html>

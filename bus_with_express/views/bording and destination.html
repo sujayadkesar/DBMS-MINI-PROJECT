@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Book_ticket</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body> <br> <br> <br> <br>
+    <section class="containerr">
+       
+            <div id="progress-bar-button" class="multisteps-form"></div>
+            <div id="multistep-start-row" class="row">
+                <div id="multistep-start-column" class="col-12 col-lg-8 m-auto">
+                    
+                    
+                    
+                    <form id="main-form" class="multisteps-form__form" action="/some" , method="POST">
+                        <div id="single-form-next" class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                            <h3 class="text-center multisteps-form__title" id="ticketss">Passanger Details</h3>
+                            
+                            <div id="form-content" class="multisteps-form__content">
+                                <div class="d-md-flex justify-content-evenly justify-content-md-start align-items-md-start form-row mt-4" id="input-grp-double"> <br> <br> <br> 
+                                    <div class="col-12 col-sm-6">
+                                        <label for="Name"><b>Name</b></label><br>
+                                        <input type="text" name="Name" id="Name" placeholder="Enter Your Full Name" required>
+                                        <br> <br>
+
+
+                                        <label for="Phno"><b>Phone number</b>  </label> <br>
+                                        <input type="tel" name="Phno" id="Phno" placeholder="Ener your contact number" required >
+                                        <br> <br>
+
+
+                                        <label for="email"><b>Email address</b></label><br>
+                                        <input type="email" required id="email"  name="email" placeholder="Enter your email address"> <br><br>
+                                        
+
+                                        <label for="age"><b>Age</b></label> <br>
+                                        <input type="number" id="age" name="age" required placeholder="Enter your age in numbers"> <br><br>
+
+
+                                        <label for="gender"><B>Gender</B></label><br>
+                                        <input type="text" name="gender" id="gender" required placeholder="Enter your gender"><br><br><br>
+                                    </div>
+                                </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <label for="Bordingpoint"><b>Bordingpoint </b></label>
+                            <select class="form-select" name="Bordingpoint" id="Bordingpoint">
+                                <option ></option>
+                                <option  selected="">Manglore</option>
+                                <option >Udupi</option>
+                                <option >SUIET Mukka</option>
+                            </select> <br>
+                            <div id="form-content" class="multisteps-form__content">
+                                <div class="d-md-flex justify-content-evenly justify-content-md-start align-items-md-start form-row mt-4" id="input-grp-double"> <br> <br> <br> 
+                                    <div class="col-12 col-sm-6">
+                                        <label for="Destination"> <b>Destination</b></label>
+                                        <select class="form-select" name="Destination" id="Destination">
+                                            <option value="undefined"></option>
+                                            <option selected="">Belagavi</option>
+                                            <option>Banglore</option>
+                                            <option>Goa</option>
+                                        </select>
+                                    </div>
+                                </div><br>
+                                <label for="Date"><b>Date</b></label>
+                                <input required class="form-control" type="date" name="Date" id="Date">
+                                <br>    <br>
+
+                            
+
+
+
+
+                                <div class="blog-slider__content">
+                                    <label for="Busname"><b>Select Bus</b></label>
+                                    <select name="Busname" id="Busname">
+                                        <option value="Manglore To Goa">Manglore To Goa</option>
+                                        <option value="Manglore to Belagavi">Manglore to Belagavi</option>
+                                        <option value="Manglore To Banglore">Manglore To Banglore</option>
+                                    </select> <br><br>
+                                    <label for="Busno"><b>Select Busno</b></label>
+                                    <select name="Busno" id="Busno">
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                    </select><br><br>
+                                    <label for="Departure"><b>Select BUS_time</b></label>
+                                    <select name="Departure" id="Departure">
+                                        <option value="6:00hr">6:00hr</option>
+                                        <option value="15:30hr">15:30hr</option>
+                                        <option value="23:30hr">23:30hr</option>
+                                    </select> <br> <br>
+                               
+
+
+                                    <label for="Route"><b>Select Route</b></label>
+                                    <select name="Route" id="Route">
+                                        <option value="Manglore karvar Goa">Manglore karvar Goa</option>
+                                        <option value="Manglore Hubli Belagavi">Manglore Hubli Belagavi</option>
+                                        <option value="Manglore Madikeri Banglore">Manglore Madikeri Banglore</option>
+                                    </select> <br> <br> <br>
+
+
+
+
+
+
+
+
+
+
+
+                                <div id="next-button" class="button-row d-flex mt-4">
+                                  
+                                  <a class="btn btn btn-primary ml-auto js-btn-next" title="Next"
+                                  href="/Alldetails" onclick="validate()"">Next</a>&nbsp;&nbsp;
+                                  <button>submit</button>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Multi-step-form.js"></script>
+</body>
+
+</html>
