@@ -60,7 +60,8 @@ your preferred browser.
 
 https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.mp4
 
-
+# LICENSE
+## [MIT License](LICENSE)
 
 
 
