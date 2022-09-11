@@ -60,8 +60,11 @@ your preferred browser.
 
 https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.mp4
 
-## LICENSE
-### [MIT License](LICENSE)
+### Licensing
+
+This project is licensed under the [MIT license](LICENSE).
+
+![MIT License](https://danielmiessler.com/images/mitlicense.png)
 
 
 
