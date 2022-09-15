@@ -56,11 +56,11 @@ your preferred browser.
 127.0.0.1:8000
 ```
 - For performing query processing open the mongo shell in the terminal
+![usage-demo](https://user-images.githubusercontent.com/95465072/190399291-32ff9533-992e-40ed-9127-3857a553b94e.gif)
 
 
 
-![Demo](https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.gif)
-![Demo](https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.mp4)
+
 ### Licensing
 
 This project is licensed under the [MIT license](LICENSE).
