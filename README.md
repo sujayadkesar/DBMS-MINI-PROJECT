@@ -3,7 +3,7 @@
 
 [![N|Solid](https://assets.northflank.com/nodemongo_9c3caf6f45.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://static.javatpoint.com/dbms/images/dbms-tutorial.jpg)](https://travis-ci.org/joemccann/dillinger)
+<!-- [![Build Status](https://static.javatpoint.com/dbms/images/dbms-tutorial.jpg)](https://travis-ci.org/joemccann/dillinger) -->
 
  A Bus Transport Service  mini  project named as Bus4U Transport services  built using  Mongo-db  Mainly focused on  DATABSE-MANAGEMENT-SYSTEMS 
 
