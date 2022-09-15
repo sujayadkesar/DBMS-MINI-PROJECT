@@ -57,8 +57,10 @@ your preferred browser.
 ```
 - For performing query processing open the mongo shell in the terminal
 
+<video auto-play="true" loop="loop" muted="muted" plays-inline="true">
+  <source src="https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.mp4" type="video/mp4">
+</video>
 
-https://user-images.githubusercontent.com/95465072/184581628-0ce5ecd3-8259-4de5-958f-32ea3e3ffccd.mp4
 
 ### Licensing
 
